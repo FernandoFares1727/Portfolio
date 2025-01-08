@@ -1,0 +1,23 @@
+.presentation {
+    margin-top: 40px;
+    padding: 20px; /* Ajuste o padding conforme necessário */
+    justify-content: center;
+    display: flex;
+    gap: 20px;;
+  }
+  
+  .name {
+    font-weight: bold; /* Opcional: Estilo para o nome */
+    margin-bottom: 10px; /* Espaçamento abaixo do nome */
+    font-size: 32px;
+  }
+
+  .description {
+    max-width: 515px;
+    font-size: 24px;
+  }
+
+  .presentation img {
+    max-width: 350px;
+    max-height: 350px;
+  }
