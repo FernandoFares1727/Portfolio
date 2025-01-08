@@ -1,0 +1,15 @@
+.about {
+    margin-top: 10px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.aboutTitle {
+    font-size: 24px;
+}
+
+.aboutContent {
+    font-size: 20px;
+}
