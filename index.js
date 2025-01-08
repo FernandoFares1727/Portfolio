@@ -10,6 +10,7 @@ function updateContent(page) {
     if(page == currentPage)
         return;
 
+    console.log(page)
     // Simulação de requisição para buscar o conteúdo (substitua por sua lógica real)
     if (page === 'home') {
       fetch('home/index.html')
@@ -18,8 +19,17 @@ function updateContent(page) {
         currentPage = page;
         content.innerHTML = data;
       })
-    } 
-}
+    }
+    else if (page == 'about'){
+      fetch('about/index.html')
+      .then(response => response.text())
+      .then(data => {
+        console.log(data);
+        currentPage = page;
+        content.innerHTML = data;
+      })
+    }
+ } 
 
 // Chama a função para carregar a página Home inicialmente
 updateContent('home');
