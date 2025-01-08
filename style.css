@@ -1,0 +1,75 @@
+:root {
+    --bodyColor:#000000;
+    --navColor: #333;
+    --fontMenuColor: #fff;
+    --fontBodyColor: #9C9C9C;
+}
+
+body {
+    background-color: var(--bodyColor);
+}
+
+p {
+    color: var(--fontBodyColor);
+}
+
+nav {
+    background-color: var(--navColor);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: var(--fontMenuColor);
+    text-decoration: none;
+  }
+  
+  .social-icons {
+    display: flex;
+  }
+  
+  .social-icons li {
+    margin: 0 5px;
+  }
+  
+  .social-icons img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .presentation {
+    margin-top: 40px;
+    padding: 20px; /* Ajuste o padding conforme necessário */
+    justify-content: center;
+    display: flex;
+    gap: 20px;;
+  }
+  
+  .name {
+    font-weight: bold; /* Opcional: Estilo para o nome */
+    margin-bottom: 10px; /* Espaçamento abaixo do nome */
+    font-size: 32px;
+  }
+
+  .description {
+    max-width: 515px;
+    font-size: 24px;
+  }
+
+  .presentation img {
+    max-width: 350px;
+    max-height: 350px;
+  }
