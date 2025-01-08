@@ -1,4 +1,5 @@
 @import url("./home/style.css");
+@import url("./about/style.css");
 
 :root {
     --bodyColor:#000000;
