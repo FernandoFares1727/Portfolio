@@ -26,6 +26,11 @@
     gap: 10px;
 }
 
+.projectLink {
+    font-size: 20px;
+    margin: 0px;
+}
+
 .projects hr {
     border: 0; /* Remove o estilo padrão */
     height: 1px; /* Define a altura */
@@ -52,4 +57,8 @@
 
 .pokeAPI1, .pokeAPI2, .pokeAPI3, .pokeAPI4 {
     max-width: 800px;
+}
+
+.finantialControl1, .finantialControl2 {
+    max-width: 600px;
 }
