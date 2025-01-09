@@ -22,7 +22,7 @@ function updateContent(page) {
 updateContent('home');
 
 // Adiciona um event listener aos links da navegação
-const links = document.querySelectorAll('nav a');
+const links = document.querySelectorAll('.menuItem');
 links.forEach(link => {
   link.addEventListener('click', (event) => {
     event.preventDefault();
