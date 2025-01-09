@@ -1,0 +1,23 @@
+.contact {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact hr {
+    border: 0; /* Remove o estilo padrão */
+    height: 1px; /* Define a altura */
+    background-color: #ccc; /* Define uma cor */
+    margin: 10px 0; /* Adiciona espaçamento vertical */
+    width: 50%; /* Ajusta a largura do separador */
+    align-self: center; /* Centraliza o elemento dentro do container flex */
+}
+
+.contactTitle {
+    font-size: 24px;
+}
+
+.contactDescription {
+    font-size: 20px;
+}

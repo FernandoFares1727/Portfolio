@@ -1,5 +1,6 @@
 @import url("./home/style.css");
 @import url("./about/style.css");
+@import url("./contact/style.css");
 
 :root {
     --bodyColor:#000000;
