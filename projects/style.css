@@ -1,0 +1,55 @@
+
+.projects {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+.projectItem {
+    display: flex;
+}
+
+.projectTitle {
+    font-size: 24px;
+}
+
+.projectDescription {
+    font-size: 20px;
+}
+
+.projectRegister {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.projects hr {
+    border: 0; /* Remove o estilo padrão */
+    height: 1px; /* Define a altura */
+    background-color: #ccc; /* Define uma cor */
+    margin: 20px 0; /* Adiciona espaçamento vertical */
+    width: 100%; /* Ajusta a largura do separador */
+    align-self: center; /* Centraliza o elemento dentro do container flex */
+}
+
+.pokedex1 {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.pokedex2 {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.toDo1, .toDo2 {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.pokeAPI1, .pokeAPI2, .pokeAPI3, .pokeAPI4 {
+    max-width: 800px;
+}
