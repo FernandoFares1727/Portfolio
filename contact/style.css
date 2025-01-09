@@ -10,7 +10,7 @@
     height: 1px; /* Define a altura */
     background-color: #ccc; /* Define uma cor */
     margin: 10px 0; /* Adiciona espaçamento vertical */
-    width: 50%; /* Ajusta a largura do separador */
+    width: 30%; /* Ajusta a largura do separador */
     align-self: center; /* Centraliza o elemento dentro do container flex */
 }
 
