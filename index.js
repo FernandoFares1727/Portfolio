@@ -6,7 +6,6 @@ const content = document.querySelector('.bodyContent');
 
 // Função para atualizar o conteúdo
 function updateContent(page) {
-
     if(page == currentPage)
         return;
 
@@ -22,7 +21,7 @@ function updateContent(page) {
 updateContent('home');
 
 // Adiciona um event listener aos links da navegação
-const links = document.querySelectorAll('.menuItem');
+const links = document.querySelectorAll('.menuItem a');
 links.forEach(link => {
   link.addEventListener('click', (event) => {
     event.preventDefault();
