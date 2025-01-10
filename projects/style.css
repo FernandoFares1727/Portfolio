@@ -62,3 +62,96 @@
 .finantialControl1, .finantialControl2 {
     max-width: 600px;
 }
+
+@media screen and ((max-width: 1000px) or (max-height: 400px)) {
+    
+    .toDo1, .toDo2 {
+        max-width: 350px;
+        max-height: 350px;
+    }
+
+    .finantialControl1, .finantialControl2 {
+        max-width: 350px;
+    }
+
+    .pokedex1 {
+        max-width: 350px;
+        max-height: 350px;
+    }
+    
+    .pokedex2 {
+        max-width: 250px;
+        max-height: 250px;
+    }
+
+    .pokeAPI1, .pokeAPI2, .pokeAPI3, .pokeAPI4 {
+        max-width: 400px;
+    }
+
+    .calculator1 {
+        max-width: 250px;
+    }
+
+    .watcher1 {
+        max-width: 250px;
+    }
+}
+
+@media screen and ((max-width: 800px) or (max-height: 400px)) {
+    .projectItem {
+        flex-direction: column;
+    }
+
+    .projectLink {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .projectRegister {
+        justify-content: center; /* centraliza no eixo principal */
+        align-items: center; /* centraliza no eixo cruzado */
+        text-align: center; /* centraliza texto, se aplicável */
+    }
+    
+}
+
+@media screen and ((max-width: 500px) or (max-height: 400px))
+{
+    .projectTitle {
+        font-size: 20px;
+    }
+
+    .projectDescription {
+        font-size: 16px;
+    }
+
+    .projectLink {
+        font-size: 16px;
+    }
+
+    .toDo1, .toDo2 {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .finantialControl1, .finantialControl2 {
+        max-width: 300px;
+    }
+
+    .pokedex1 {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .pokeAPI1, .pokeAPI2, .pokeAPI3, .pokeAPI4 {
+        max-width: 300px;
+    }
+
+    .calculator1 {
+        max-width: 250px;
+    }
+
+    .watcher1 {
+        max-width: 250px;
+    }
+}
