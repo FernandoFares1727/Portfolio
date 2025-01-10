@@ -30,3 +30,21 @@
     font-size: 20px;
     margin: 0px;
 }
+
+@media screen and ((max-width: 800px) or (max-height: 400px)) {
+    
+    .contact hr {
+        width: 50%;
+    }
+}
+
+@media screen and ((max-width: 400px) or (max-height: 400px)) {
+    
+    .contactTitle {
+        font-size: 20px;
+    }
+
+    .contactDescription {
+        font-size: 16px;
+    }
+}

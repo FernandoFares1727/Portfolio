@@ -21,3 +21,10 @@
     max-width: 350px;
     max-height: 350px;
   }
+
+  @media screen and ((max-width: 750px) or (max-height: 400px)) {
+    
+    .presentation {
+      flex-direction: column;
+    }
+}

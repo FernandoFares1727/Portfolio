@@ -54,3 +54,15 @@ nav {
     width: 20px;
     height: 20px;
   }
+
+  @media screen and ((max-width: 400px) or (max-height: 400px)) {
+    
+    .menuItem {
+      font-size: 14px;
+    }
+
+    .social-icons img {
+      width: 16px;
+      height: 16px;
+    }
+}
