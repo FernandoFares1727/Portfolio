@@ -55,6 +55,12 @@ nav {
     height: 20px;
   }
 
+  .bodyContent {
+    margin-top: 20px;
+    height: 85vh; 
+    overflow-y: auto;
+  }
+
   @media screen and ((max-width: 400px) or (max-height: 400px)) {
     
     .menuItem {
